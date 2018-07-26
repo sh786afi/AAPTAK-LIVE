@@ -53,11 +53,14 @@
                 <div class="col-md-4">
                     <div class="left_section">
                                             <span class="date">
-                                                Sunday .
+                                            <?php 
+                                            date_default_timezone_set('Asia/Kolkata');
+                                            echo date("l"); ?>  .
                                             </span>
                         <!-- Date -->
                                             <span class="time">
-                                                22 July . 2018
+                                                <?php date_default_timezone_set('Asia/Kolkata');
+                                                      echo date('d-m-Y h:i A'); ?>
                                             </span>
                         <!-- Time -->
                         <div class="social">
