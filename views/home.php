@@ -12,7 +12,7 @@
                     <div class="feature_article_inner">
                         <div class="tag_lg red"><a href="category.html">Live</a></div>
                         <div class="feature_article_title">
-                            <h1><a href="single.html" target="_self">Bihar Elelction Result </a></h1>
+                            <h1><a href="?page=single" target="_self">Bihar Elelction Result </a></h1>
                         </div>
                         <!-- feature_article_title -->
 
@@ -75,7 +75,7 @@
                     <!-- feature_article_inner -->
 
                 </div>
-                <!-- feature_static_wrapper -->
+                <!-- feature_static_wrapper --> 
 
             </div>
             <!-- col-md-5 -->

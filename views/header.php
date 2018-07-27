@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="logo">
-                        <a href="index.html"><h1>AAPTAK</h1></a>
+                        <a href="?page=home"><h1>AAPTAK</h1></a>
                     </div>
                     <!-- Logo Section -->
                 </div>
@@ -144,7 +144,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="#navbar-collapse-1">
                         <ul class="nav navbar-nav main-nav">
-                            <li><a href="#">News</a></li>
+                            <li><a href="?page=news">News</a></li>
                             <li><a href="category.html">City News</a></li>
                             <li><a href="blog.html">India News</a></li>
                             <li><a href="blog.html">World News</a></li>
