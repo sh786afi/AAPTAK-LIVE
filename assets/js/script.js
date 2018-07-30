@@ -96,6 +96,10 @@ $(function () {
 $(document).on('click', '.m-menu .dropdown-menu', function (e) {
     e.stopPropagation()
 });
+//Login Signup button
+$("#LoginSignup").click(function(){
+    $("#loginForm")[0].reset();
+});
 
 //Login SignUp Toggle 
 
@@ -105,12 +109,16 @@ $("#togglelogin").click(function(){
         $("#loginmodaltitle").html("Sign Up");
         $("#loginSignupButton").html("Sign Up");
         $("#togglelogin").html("Login");
+        $("#loginForm")[0].reset();
+        
     }
     else{
         $("#loginactive").val("1");
         $("#loginmodaltitle").html("Login");
         $("#loginSignupButton").html("Login");
         $("#togglelogin").html("Sign Up");
+        $("#loginForm")[0].reset();
+        
     }
 });
 

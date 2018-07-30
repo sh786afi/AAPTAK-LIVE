@@ -21,7 +21,7 @@ if($_GET['action']=="loginSignUp"){
         $result=mysqli_query($link,$query);
         if(mysqli_num_rows($result)>0) $error="The email address is already taken";
         else{
-            $query=$query="INSERT INTO `db_userMaster`(`email`, `password`) VALUES('".mysqli_real_escape_string($link,$_POST['email'])."',
+          $query="INSERT INTO `db_userMaster`(`email`, `password`) VALUES('".mysqli_real_escape_string($link,$_POST['email'])."',
             '".mysqli_real_escape_string($link,$_POST['password'])."')";
             if(mysqli_query($link, $query)){
                 $_SESSION['id']=mysqli_insert_id($link);  

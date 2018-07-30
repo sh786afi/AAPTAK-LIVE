@@ -2,7 +2,7 @@
 
 <section id="footer_section" class="footer_section">
     <div class="container">
-        <hr class="footer-top">
+        <hr class="footer-top"> 
         <div class="row">
             <div class="col-md-3">
                 <div class="footer_widget_title"><h3><a href="category.html" target="_self">About AAPTAK</a></h3></div>
@@ -14,6 +14,8 @@
                     <p>Competently conceptualize go forward testing procedures and B2B expertise. Phosfluorescently
                         cultivate principle-centered methods.of empowerment through fully researched.</p>
                 </div>
+
+
             </div>
             <div class="col-md-3">
                 <div class="footer_widget_title">
@@ -178,49 +180,51 @@
     <div>
         <div>
             <ul id="menu">
-                <li class="active"><a href="blog.html">News</a></li>
-                <li><a href="category.html">Mobile</a></li>
-                <li><a href="blog.html">Tablet</a></li>
-                <li><a href="category.html">Gadgets</a></li>
-                <li><a href="blog.html">Camera</a></li>
-                <li><a href="category.html">Design</a></li>
+                            <li><a href="?page=news">News</a></li>
+                            <li><a href="category.html">City News</a></li>
+                            <li><a href="blog.html">India News</a></li>
+                            <li><a href="blog.html">World News</a></li>
+                            <li><a href="blog.html">Technology</a></li>
+                            <li><a href="blog.html">Lifestyle</a></li>
+                            <li><a href="blog.html">Education</a></li>
+                            <li><a href="blog.html">Videos</a></li>
                 <li class="dropdown m-menu-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">More
                     <span><i class="fa fa-angle-down"></i></span></a>
                     <ul class="dropdown-menu">
                         <li>
                             <div class="m-menu-content">
+                            <ul class="col-sm-3">
+                                <li class="dropdown-header">Bussiness</li>
+                                <li><a href="#">Corporate</a></li>
+                                <li><a href="#">Deals</a></li>
+                                <li><a href="#">Share Bazaar</a></li>
+                                <li><a href="#">Finance</a></li>
+                                <li><a href="#">Others</a></li>
+                             </ul>
                                 <ul class="col-sm-3">
-                                    <li class="dropdown-header">Widget Haeder</li>
-                                    <li><a href="#">Awesome Features</a></li>
-                                    <li><a href="#">Clean Interface</a></li>
-                                    <li><a href="#">Available Possibilities</a></li>
-                                    <li><a href="#">Responsive Design</a></li>
-                                    <li><a href="#">Pixel Perfect Graphics</a></li>
-                                </ul>
-                                <ul class="col-sm-3">
-                                    <li class="dropdown-header">Widget Haeder</li>
-                                    <li><a href="#">Awesome Features</a></li>
-                                    <li><a href="#">Clean Interface</a></li>
-                                    <li><a href="#">Available Possibilities</a></li>
-                                    <li><a href="#">Responsive Design</a></li>
-                                    <li><a href="#">Pixel Perfect Graphics</a></li>
-                                </ul>
-                                <ul class="col-sm-3">
-                                    <li class="dropdown-header">Widget Haeder</li>
-                                    <li><a href="#">Awesome Features</a></li>
-                                    <li><a href="#">Clean Interface</a></li>
-                                    <li><a href="#">Available Possibilities</a></li>
-                                    <li><a href="#">Responsive Design</a></li>
-                                    <li><a href="#">Pixel Perfect Graphics</a></li>
-                                </ul>
-                                <ul class="col-sm-3">
-                                    <li class="dropdown-header">Widget Haeder</li>
-                                    <li><a href="#">Awesome Features</a></li>
-                                    <li><a href="#">Clean Interface</a></li>
-                                    <li><a href="#">Available Possibilities</a></li>
-                                    <li><a href="#">Responsive Design</a></li>
-                                    <li><a href="#">Pixel Perfect Graphics</a></li>
-                                </ul>
+                                <li class="dropdown-header">Sports</li>
+                                <li><a href="#">Cricket</a></li>
+                                <li><a href="#">Football</a></li>
+                                <li><a href="#">Tennis</a></li
+                                <li><a href="#">Kabaddi</a></li>
+                                <li><a href="#">others</a></li>
+                           </ul>
+                           <ul class="col-sm-3">
+                                <li class="dropdown-header">Entertainment</li>
+                                 <li><a href="#">Bollywood</a></li>
+                                 <li><a href="#">Hollywood</a></li>
+                                 <li><a href="#">Tollywood</a></li>
+                                 <li><a href="#">Pollywood</a></li>
+                                 <li><a href="#">Others</a></li>
+                             </ul>
+                             <ul class="col-sm-3">
+                                <li class="dropdown-header">Local News</li>
+                                <li><a href="#">Parkhand News</a></li>
+                                <li><a href="#">Politics</a></li>
+                                <li><a href="#">Crime</a></li>
+                                <li><a href="#">Photp</a></li>
+                                <li><a href="#">Others</a></li>
+                             </ul>
                             </div>
                         </li>
                     </ul>
@@ -245,9 +249,9 @@
             </div>
             <div class="modal-body">
             <div class="alert alert-danger" role="alert" id="LoginAlert"></div>
-                    <form>
+                    <form id="loginForm">
                         <input type="hidden" name="LoginActive" id="loginactive" value="1">
-                             <div class="form-group">
+                             <div class="form-group" >
                               <label for="email">Email</label>
                               <input type="email" name="email" class="form-control" id="email" placeholder="Email Address">
                             </div>

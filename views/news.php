@@ -14,18 +14,17 @@
 <div class="col-md-8">
 <div class="entity_wrapper">
     <div class="entity_title header_purple">
-        <h1><a href="?page=news" target="_blank">News</a></h1>
+        <h1><a href="?page=news" target="_blank">News</a></h1> 
     </div>
     <!-- entity_title -->
-
+    
     <div class="entity_thumb">
         <img class="img-responsive" src="assets/img/category_img_top.jpg" alt="feature-top">
     </div>
     <!-- entity_thumb -->
 
     <div class="entity_title">
-        <a href="single.html" target="_blank"><h3> Airbnb launches photo-centric app for iPads and Android
-            tablets. </h3></a>
+        <a href="?page=single" target="_blank"><h3> <?php displayNewsTitle(); ?></h3></a>
     </div>
     <!-- entity_title -->
 
@@ -35,8 +34,7 @@
     <!-- entity_meta -->
 
     <div class="entity_content">
-        Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users
-        after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+    <?php displayNewsDesc(); ?>
     </div>
     <!-- entity_content -->
 
@@ -87,41 +85,47 @@
     </div>
     <!-- col-md-6 -->
 
-    <div class="col-md-6">
-        <div class="category_article_body">
-            <div class="top_article_img">
-                <img class="img-responsive" src="assets/img/category_img2.jpg" alt="feature-top">
-            </div>
-            <!-- top_article_img -->
+   <?php
+   
+    for($i=0;$i<5;$i++){
 
-            <div class="category_article_title">
-                <h5><a href="single.html" target="_blank">Airbnb launches photo-centric app for iPads and Android
-                    tablets. </a></h5>
-            </div>
-            <!-- category_article_title -->
-
-            <div class="article_date">
-                <a href="#">10Aug- 2015</a>, by: <a href="#">Eric joan</a>
-            </div>
-            <!-- article_date -->
-
-            <div class="category_article_content">
-                Collaboratively administrate empowered markets via plug-and-play networks.
-                Dynamically procrastinate B2C users after installed base benefits. Dramatically
-                visualize customer directed convergence without revolutionary ROI.
-            </div>
-            <!-- category_article_content -->
-
-            <div class="article_social">
-                <span><a href="#"><i class="fa fa-share-alt"></i>424 </a> Shares</span>
-                <span><i class="fa fa-comments-o"></i><a href="#">4</a> Comments</span>
-            </div>
-            <!-- article_social -->
-
+    echo $DivHtml = ' <div class="col-md-6">
+    <div class="category_article_body">
+        <div class="top_article_img">
+            <img class="img-responsive" src="assets/img/category_img2.jpg" alt="feature-top">
         </div>
-        <!-- category_article_body -->
+        <!-- top_article_img -->
+
+        <div class="category_article_title">
+            <h5><a href="single.html" target="_blank">Airbnb launches photo-centric app for iPads and Android
+                tablets. </a></h5>
+        </div>
+        <!-- category_article_title -->
+
+        <div class="article_date">
+            <a href="#">10Aug- 2015</a>, by: <a href="#">Eric joan</a>
+        </div>
+        <!-- article_date -->
+
+        <div class="category_article_content">
+            Collaboratively administrate empowered markets via plug-and-play networks.
+            Dynamically procrastinate B2C users after installed base benefits. Dramatically
+            visualize customer directed convergence without revolutionary ROI.
+        </div>
+        <!-- category_article_content -->
+
+        <div class="article_social">
+            <span><a href="#"><i class="fa fa-share-alt"></i>424 </a> Shares</span>
+            <span><i class="fa fa-comments-o"></i><a href="#">4</a> Comments</span>
+        </div>
+        <!-- article_social -->
 
     </div>
+    <!-- category_article_body -->
+
+    </div>';
+    }
+   ?>
     <!-- col-md-6 -->
 
 </div>
