@@ -1,7 +1,7 @@
 <?php
 
 include("functions.php");
-include("views/header.php");
+include("views/header.php"); 
 
 if(isset($_GET['page'])){
     if($_GET['page']=='home'){

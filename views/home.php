@@ -4,7 +4,7 @@
             <div class="col-md-7">
                 <div class="feature_article_wrapper">
                     <div class="feature_article_img">
-                        <img class="img-responsive top_static_article_img" src="assets/img/election.jpg"
+                        <img class="img-responsive top_static_article_img" src="assets/img/category_img_top1.jpg"
                              alt="feature-top">
                     </div>
                     <!-- feature_article_img --> 
@@ -12,7 +12,7 @@
                     <div class="feature_article_inner">
                         <div class="tag_lg red"><a href="category.html">Live</a></div>
                         <div class="feature_article_title">
-                            <h1><a href="?page=single" target="_self">Bihar Elelction Result </a></h1>
+                            <h1><a href="?page=single" target="_self">Bihar Elelction Result</a></h1>
                         </div>
                         <!-- feature_article_title -->
 
