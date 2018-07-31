@@ -1,5 +1,5 @@
 <section class="breadcrumb_section">
-    <div class="container">
+    <div class="container"> 
         <div class="row">
             <ol class="breadcrumb">
                 <li><a href="?page=home">AAPTAK</a></li>
@@ -47,47 +47,7 @@
 </div>
 <!-- entity_wrapper -->
 <div class="row">
-<?php
-   
-    for($i=0;$i<20;$i++){
-
-    echo $subNews = '
-    <div class="col-md-6">
-        <div class="category_article_body">
-            <div class="top_article_img">
-                <img class="img-fluid" src="assets/img/category_img1.jpg" alt="feature-top">
-            </div>
-            <!-- top_article_img -->
-
-            <div class="category_article_title">
-                <h5><a href="?page=single" target="_blank">'?><?php displayNewsTitle();?> <?php echo $subNews =  '</a></h5>
-            </div>
-            <!-- category_article_title -->
-
-            <div class="article_date">
-                <a href="#">10Aug- 2015</a>, by: <a href="#">Eric joan</a>
-            </div>
-            <!-- article_date -->
-
-            <div class="category_article_content">'?>
-            <?php displayNewsDesc(); ?>
-
-            <?php echo $subNews = '</div>
-            <!-- category_article_content -->
-
-            <div class="article_social">
-                <span><a href="#"><i class="fa fa-share-alt"></i>424 </a> Shares</span>
-                <span><i class="fa fa-comments-o"></i><a href="#">4</a> Comments</span>
-            </div>
-            <!-- article_social -->
-
-        </div>
-        <!-- category_article_body -->
-
-    </div>
-    <!-- col-md-6 -->';
-    }?>
-
+<?php displayNews();?>
 </div>
 <!-- row -->
 
